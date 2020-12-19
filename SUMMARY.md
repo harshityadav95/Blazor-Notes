@@ -9,4 +9,6 @@
 * [Parameters](parameters.md)
 * [Forms](forms.md)
 * [Reference](reference.md)
+* [C\# - &gt; JS](c-greater-than-js.md)
+* [JS -&gt; C\#](js-greater-than-c.md)
 
