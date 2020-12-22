@@ -14,4 +14,5 @@
 * [C\# - &gt; JS](c-greater-than-js.md)
 * [JS -&gt; C\#](js-greater-than-c.md)
 * [Browser localStorage API](browser-localstorage-api.md)
+* [Component Splitting](component-splitting.md)
 
