@@ -1,6 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Blazor Hosting models](README.md)
+* [Setting Startup Project](setting-startup-project.md)
+* [Blazor Project Structure](blazor-project-structure.md)
 * [Github Action : Docker Image to Github Package Manager](github-action-docker-image-to-github-package-manager.md)
 * [Component Events](button-click.md)
 * [Two way Binding](two-way-binding.md)
