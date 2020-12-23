@@ -3,10 +3,11 @@
 * [Blazor Hosting models](README.md)
 * [Setting Startup Project](setting-startup-project.md)
 * [Blazor Project Structure](blazor-project-structure.md)
+* [Component Splitting](code-arrangement.md)
+* [Creating blazor model classes](creating-blazor-model-classes.md)
 * [Github Action : Docker Image to Github Package Manager](github-action-docker-image-to-github-package-manager.md)
 * [Component Events](button-click.md)
 * [Two way Binding](two-way-binding.md)
-* [Code Arrangement](code-arrangement.md)
 * [Page Routes / Navlinks](page-routes.md)
 * [Parameters](parameters.md)
 * [Forms](forms.md)
@@ -14,5 +15,4 @@
 * [C\# - &gt; JS](c-greater-than-js.md)
 * [JS -&gt; C\#](js-greater-than-c.md)
 * [Browser localStorage API](browser-localstorage-api.md)
-* [Component Splitting](component-splitting.md)
 

@@ -2,7 +2,7 @@
 description: 'Component = c# + html'
 ---
 
-# Code Arrangement
+# Component Splitting
 
 ## Split razor component
 
