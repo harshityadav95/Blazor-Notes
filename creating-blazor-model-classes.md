@@ -39,5 +39,7 @@ public class Department
 }
 ```
 
+Create the class and add it as a reference project in the Blazor  project
+
 
 
