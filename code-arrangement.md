@@ -1,4 +1,15 @@
-# Code Arrangement
+---
+description: 'Component = c# + html'
+---
+
+# Component Splitting
+
+## Split razor component
+
+There are 2 approaches, to split component HTML and C\# code into their own separate files.
+
+1. Partial files approach
+2. Base class approach
 
 * **Separating the c\# code from the HTML and Class code , using code behind file**
 *  To create a code behind file 
@@ -49,7 +60,18 @@ namespace RPS.Web.Server.Pages
 
 ```
 
+*  Now in the Page Razor component  inherit from the  Base class using the @inherits component to inherit the base class in the c\# razor component 
 
+```text
+@page "/"
+- @inherits EmployeeListBase
+
+<h3>EmployeeList</h3>
+
+@code {
+
+}
+```
 
 
 
