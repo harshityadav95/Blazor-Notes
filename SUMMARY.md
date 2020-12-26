@@ -6,6 +6,7 @@
 * [Component Splitting](code-arrangement.md)
 * [Creating blazor model classes](creating-blazor-model-classes.md)
 * [Cleaning the Blazor Project](cleaning-the-blazor-project.md)
+* [Blazor Component Lifecycle Method](blazor-component-lifecycle-method.md)
 * [Github Action : Docker Image to Github Package Manager](github-action-docker-image-to-github-package-manager.md)
 * [Component Events](button-click.md)
 * [Two way Binding](two-way-binding.md)
