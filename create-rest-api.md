@@ -8,6 +8,8 @@ In the same project add new project
 4. Set it as a startup project
 5. Change the Order of start  , the Api should start before the other project
 6. Add the dependency of .net core library in the API if needed
-7. 
+
+
+
  
 
