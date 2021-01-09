@@ -35,8 +35,11 @@ To use the DbContext class in our application
 2. DbContext class is in Microsoft.EntityFrameworkCore namespace.
 
 ```text
+// code that interact with the database
 public class AppDbContext : DbContext
-{ }
+{ 
+
+}
 ```
 
 ### DbContextOptions in Entity Framework Core
@@ -50,6 +53,7 @@ We pass the DbContextOptions to the base DbContext class constructor using the b
 ```text
 public class AppDbContext : DbContext
 {
+    // for connection string from appconfig.json
     public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options)
     {
@@ -75,7 +79,7 @@ DbSet<Department>
 public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options)
-        : base(options)
+        : base(options) 
     {
     }
 
@@ -84,5 +88,5 @@ public class AppDbContext : DbContext
 }
 ```
 
-
+* TO add some seed data to the above class we add overload function that makes it like this 
 
