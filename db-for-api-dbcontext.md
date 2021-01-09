@@ -5,7 +5,15 @@
 * Microsoft.EntityFrameworkCore.SqlServer
 * Microsoft.EntityFrameworkCore.Tools
 
+### Add the following string in the App config of the Project
 
+Include the following database connection string in appsettings.json file of the REST API project.
+
+```text
+"ConnectionStrings": {
+  "DBConnection": "server=(localdb)\\MSSQLLocalDB;database=EmployeeDB;Trusted_Connection=true"
+}
+```
 
 ## ASP.NET Core REST API DbContext
 
