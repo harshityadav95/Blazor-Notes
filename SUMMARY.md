@@ -11,6 +11,7 @@
 * [Data Access Stratergies](data-access-stratergies.md)
 * [Create Rest API](create-rest-api.md)
 * [DB for API DbContext](db-for-api-dbcontext.md)
+* [Rest API repository Pattern](rest-api-repository-pattern.md)
 * [Github Action : Docker Image to Github Package Manager](github-action-docker-image-to-github-package-manager.md)
 * [Component Events](button-click.md)
 * [Two way Binding](two-way-binding.md)
