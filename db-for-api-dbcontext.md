@@ -116,7 +116,16 @@ Now , executing the database migration
 Add-Migration InitialCreate
 ```
 
-After the migration is complete there will be a Migrations folder created in the API project 
+After the migration is complete there will be a Migrations folder created in the API project , the file \(intialCreate\) contains our migration code 
+
+* To update the Database 
+
+```text
+Update-Database
+```
+
+After the above is suceessfull goto    
+View &gt; SQL server object explorer &gt; Database &gt; Employee Databased &gt;&gt; \(right click \) &gt;&gt; view data to view the data stored in the SQL object  
 
 
 
