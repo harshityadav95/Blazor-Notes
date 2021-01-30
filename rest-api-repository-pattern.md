@@ -102,5 +102,11 @@ In the directory IEmployeeRepository.cs
 
 ```
 
+Reference  :  [https://www.pragimtech.com/blog/blazor/rest-api-repository-pattern/](https://www.pragimtech.com/blog/blazor/rest-api-repository-pattern/)
 
+### Benefits of Repository Pattern
+
+* The code is cleaner, and easier to reuse and maintain.
+* Enables us to create loosely coupled systems. For example, if we want our application to work with oracle instead of sql server, implement an OracleRepository that knows how to read and write to Oracle database and register OracleRepository with the dependency injection system.
+* In an unit testing project, it is easy to replace a real repository with a fake implementation for testing.
 
