@@ -10,7 +10,7 @@ Files and folders in ASP.NET Core Blazor project
 
 Components are the building blocks of a Blazor application. 
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ### wwwroot
 

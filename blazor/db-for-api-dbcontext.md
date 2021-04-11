@@ -90,3 +90,42 @@ public class AppDbContext : DbContext
 
 * TO add some seed data to the above class we add overload function that makes it like this 
 
+### Add SQL Server to the project 
+
+Goto Startup.cs of the EmployeeManagement.api and add the following method to read connection string 
+
+```text
+public void ConfigureServices(IServiceCollection services)
+{
+    //this code need to be added
+    services.AddDbContext<AppDbContext>(options =>
+        options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
+    
+    // this is already present
+    services.AddControllers();
+}
+```
+
+Now , executing the database migration  
+
+### Database Migration 
+
+1. Launch the Nuget  Package manager command line in the visual studio \(make sure in the package manager terminal the Default project is the Api \) since the migration will only be made for the API project
+
+```text
+Add-Migration InitialCreate
+```
+
+After the migration is complete there will be a Migrations folder created in the API project , the file \(intialCreate\) contains our migration code 
+
+* To update the Database 
+
+```text
+Update-Database
+```
+
+After the above is suceessfull goto    
+View &gt; SQL server object explorer &gt; Database &gt; Employee Databased &gt;&gt; \(right click \) &gt;&gt; view data to view the data stored in the SQL object  
+
+
+
