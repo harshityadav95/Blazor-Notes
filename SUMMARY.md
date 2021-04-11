@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Blazor Hosting models](README.md)
+* [.NET Ecosystem](.net-ecosystem.md)
 * [Setting Startup Project](setting-startup-project.md)
 * [Blazor Project Structure](blazor-project-structure.md)
 * [Component Splitting](code-arrangement.md)
